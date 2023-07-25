@@ -1,11 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- favicon link -->
+    <link rel="icon" href="./images/fruit3.png" type="image/x-icon">
+    <title>Fruit Burst</title>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- daisy ui and tailwind link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css link -->
+    <style>
+        .font-lato{
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+        <!-- for customization -->
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                    colors:{
+                        'primary-clr': '#F85559',
+                    }
+                }
+              }
+            }
+          </script>
 </head>
-<body>
-    
+<body class="font-lato">
+    <header class="md:container md:mx-auto ">
+        <!-- navbar section starts here -->
+        <nav class="lg:mx-60 border	bg-red-500 rounded-3xl mt-12">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-base">
+                      <li><a>Home</a></li>
+                      <li><a>About Us</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="navbar-center">
+                    <img src="./images/logo.png" alt="">
+                  <a class="btn btn-ghost normal-case text-4xl font-bold">Fruit Burst</a>
+                </div>
+                <div class="navbar-end">
+                    <div class="form-control">
+                        <input type="text" placeholder="Search Here" 
+                        class="input input-bordered rounded-2xl w-24 md:w-auto" />  
+                  <!-- <button class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                  </button> -->
+                </div>
+                </div>
+              </div>
+        </nav>
+        <!-- navbar section ends here -->
+    </header>
+    <main></main>
+    <footer></footer>
 </body>
 </html>
