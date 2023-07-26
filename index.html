@@ -38,15 +38,15 @@
     <header>
         <!-- navbar section starts here -->
         <nav class="container mx-auto px-8 md:px-16 lg:px-24 py-5 ">
-          <div class="navbar bg-base-100 flex flex-row-reverse justify-center lg:flex-row md:flex-row bg-[#F85559] rounded-full lg:mt-10">
+          <div class="navbar bg-base-100 flex flex-row-reverse lg:flex-row justify-center bg-[#F85559] rounded-full lg:mt-10">
           <div class="navbar-start">
               <div class="dropdown">
-                  <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <label tabindex="0" class="btn btn-ghost text-white lg:hidden">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"d="M4 6h16M4 12h8m-8 6h16" />
                       </svg>
                   </label>
                   <ul tabindex="0"
-                      class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      class="menu menu-sm dropdown-content mt-3 z-[1] lg:p-2 shadow bg-base-100 rounded-box w-52">
                       <li><a>Home</a></li>
                       <li><a>About Us</a></li>
                       <li><a>Shop</a></li>
@@ -61,11 +61,11 @@
               </ul>
           </div>
           <div class="navbar-center md:pl-0 lg:flex">
-              <a class="btn btn-ghost normal-case text-xl lg:text-white">
+              <a class="btn btn-ghost normal-case text-xl text-white">
                   <img src="./images/logo.png" alt="" class="w-10">Fruit Burst
               </a>
           </div>
-          <div class="invisible navbar-end lg:relative lg:visible">
+          <div class="navbar-end lg:relative invisible lg:visible">
               <input type="text" placeholder="Search here"
                   class="input input-bordered w-full max-w-xs rounded-full mr-2" />
               <i class="fa-solid fa-magnifying-glass absolute right-7"></i>
@@ -155,7 +155,7 @@
             </div>         
         </div>
         <!-- mini banner -->
-            <div class="flex justify-center gap-14 bg-white shadow-sm rounded-xl max-w-screen-lg lg:px-16 lg:py-10 relative md:-mt-4 lg:-mt-24 lg:ml-40  :hidden ">
+            <div class="flex justify-center gap-14 bg-white shadow-sm rounded-xl max-w-screen-lg lg:px-16 lg:py-10 relative md:-mt-4 lg:-mt-24 lg:ml-40 invisible lg:visible ">
                 <div>
                     <img src="./images/fruit1.png" alt="">
                     <p>Blue Berry</p>
@@ -182,7 +182,7 @@
     </header>
     <main>
         <!-- countdown section starts here -->
-        <section class="container mx-auto px-8 md:px-16 lg:px-24 py-5 my-10 mt-5">
+        <section class="container mx-auto px-8 md:px-16 lg:px-24 py-5 lg:my-10 mt-5">
         <div class="lg:flex my-20 flex-col justify-center text-center items-center gap-14 lg:flex-row ">
             <div class="lg:flex-1 justify-center lg:justify-start items-center lg:text-left">
                 <h1 class="text-4xl font-extrabold">Deal of the day</h1>
@@ -447,7 +447,7 @@
             <h1 class="text-4xl	font-extrabold">What Our Client Say</h1>
             <p class="text-lg pb-10">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
             </div>
-          <div class="grid lg:grid-cols-3">
+          <div class="grid lg:grid-cols-3 md:justify-center">
             <!-- left column -->
             <div>
             <div class="flex gap-4">
@@ -471,12 +471,12 @@
                 <i class="fa-solid fa-gift"></i></div>
               <div class="">
                 <h1 class="font-extrabold text-lg border-b-2 border-gray-600 pb-4">Gift Certificates</h1>
-                <p class="text-sm pt-4">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+                <p class="text-sm pt-4 pb-5">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
               </div>
             </div>
           </div>
           <!-- center column -->
-            <div>
+            <div class="" >
               <img src="./images/whychoose1.png" alt="">
             </div>
             <!-- right column -->
@@ -484,10 +484,10 @@
               <div class="">
                 <div class="flex gap-4 lg:justify-end">
                   <div class="">
-                    <h1 class="font-extrabold text-lg border-b-2 border-gray-600 pb-4 lg:text-end">Integrated Supplier</h1>
+                    <h1 class="font-extrabold text-lg border-b-2 border-gray-600 pb-4 pt-5 lg:text-end">Integrated Supplier</h1>
                     <p class="text-sm pt-4 pb-10">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
                   </div>
-                  <div class="bg-base-300 btn btn-circle ">                 
+                  <div class="bg-base-300 btn btn-circle mt-5">                 
                     <i class="fa-solid fa-truck-field"></i></div>
                 </div>
                 <div class="flex gap-4 lg:justify-end">
